@@ -100,11 +100,11 @@ public class Main {
 
         myVar01 = 5;
 
-        if (myVar01 > 1 && myVar01 <= 6) {
+        if (myVar01 >= 2 && myVar01 <= 6) {
             System.out.println("Если возраст человека равен " + myVar01 + ", то ему нужно ходить в детский сад.");
-        } else if (myVar01 > 6 && myVar01 <= 17) {
+        } else if (myVar01 >= 7 && myVar01 <= 17) {
             System.out.println("Если возраст человека равен " + myVar01 + ", то ему нужно ходить в школу.");
-        } else if (myVar01 > 17 && myVar01 <= 24) {
+        } else if (myVar01 >= 18 && myVar01 <= 24) {
             System.out.println("Если возраст человека равен " + myVar01 + ", то ему нужно ходить в ВУЗ.");
         } else if (myVar01 > 24) {
             System.out.println("Если возраст человека равен " + myVar01 + ", то ему нужно работать.");
@@ -292,7 +292,6 @@ public class Main {
         } else {
             System.out.println("\"Three\" имеет самое большое значение: " + three);
         }
-
 
         System.out.println();
         System.out.println();
